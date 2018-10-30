@@ -57,8 +57,8 @@ body{
 }
 .header{
 	margin: auto;
-	width: 1172px;
-	height: 774;
+	width: 1400px;
+	height: 782px;
 	border: 4px double black;
 }
 .header_menu{
@@ -71,22 +71,91 @@ body{
 	display: inline; 
 }
 .preview{
-	border: 4px double black;
 	text-align: center;	
 	background: url(../img/header-background.jpg);
 	background-size: cover;
-	height: 652px;
 	color: #ffffff;
 }
 .opacity{
-	height: 652px;
+	height: 782px;
 	background: rgba(0,0,0,0.6);
 	position: cover;
 }
 .lupa{
 	border: 0px;
 }
+.about_us{
+	margin: auto;
+	width: 1400px;
+	height: 672px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.about_us li{
+	list-style-type: none;
+}
+.our_services{
+	width: 1400px;
+	height: 1414px;
+	background-color: #e3fdf9;
+	margin: auto;
+	text-align: center;
+}
+.our_services li{
+	list-style-type: none;
+}
 
+.latest_works{
+	margin: auto;
+	width: 1400px;
+	height: 1616px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.pricing_plan{
+	margin: auto;
+	width: 1400px;
+	height: 1142px;
+	background-color: rgba(6,12,11,0.2);
+	text-align: center;
+}
+.pricing_plan li{
+	list-style-type: none;
+}
+.our_team_member{
+	margin: auto;
+	width: 1400px;
+	height: 1095px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.our_team_member li{
+	list-style-type: none;
+}
+.blog{
+	margin: auto;
+	width: 1400px;
+	height: 1869px;
+	background-color: #e3fdf9;
+}
+.contact_us{
+	background: url(../img/layer0.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	width: 1400px;
+	height: 1254px;
+	background-color: #212121;
+	text-align: center;
+	color: #ffffff;
+}
+.opacity2{
+	height: 1254px;
+	background: rgba(34, 32, 32, 0.877);
+	position: cover;
+}
+.contact_us li{
+	list-style-type: none;
+}
 
 
 
@@ -99,5 +168,5 @@ a.knopka {
   padding: .7em 1.5em; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
 } 
-a.knopka:hover { background: #1fd149; } /* при наведении курсора мышки */
+a.knopka:hover { background: #00898a; } /* при наведении курсора мышки */
 a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
