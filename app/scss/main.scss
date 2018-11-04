@@ -55,11 +55,33 @@ b, strong {
 body{
     font-family: "Open Sans";
 }
+.h1{
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.zagolovok{
+	padding: 120px;
+	text-align: center;
+}
+.zagolovok span{
+	width: 641px;
+	height: 52px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
 .header{
 	margin: auto;
 	width: 1400px;
 	height: 782px;
 	border: 4px double black;
+	margin: auto;
 }
 .header_menu{
 	border: 4px double black;
@@ -100,9 +122,28 @@ body{
 	background-color: #e3fdf9;
 	margin: auto;
 	text-align: center;
+	margin: auto;
 }
 .our_services li{
 	list-style-type: none;
+}
+.our_services button{
+	width: 150px;
+	height: 55px;
+	background-color: #fff;
+	border: 2px solid #212121;
+}
+.service_block{
+	width: 370px;
+	height: 438px;
+	background-color: #ffffff;
+	display: inline-block;
+	margin: 15px 15px 15px 15px;
+	padding: 58px;
+}
+.service_block :hover{
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.35);
+	background-color: #00897b;
 }
 
 .latest_works{
@@ -121,6 +162,31 @@ body{
 }
 .pricing_plan li{
 	list-style-type: none;
+}
+.block_left{
+	width: 370px;
+	height: 667px;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-right: 15px;
+}
+.block_left :hover{
+	
+}
+.block_center{
+	width: 370px;
+	height: 667px;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.block_right{
+	width: 370px;
+	height: 667px;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-left: 15px;
 }
 .our_team_member{
 	margin: auto;
@@ -155,9 +221,46 @@ body{
 }
 .contact_us li{
 	list-style-type: none;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 28px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-weight: bold;
+	text-align: center;
+	display: inline;
 }
-
-
+.contact_us_text_1{
+	margin-right: 15px;
+	margin-left: 15px;
+	width: 500px;
+	height: 84px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+.contact_us_text_2{
+	margin-top: 30px;
+	width: 1031px;
+	height: 323px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	resize: none;
+	padding: 20px;
+}
+.footer{
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-family: "Roboto";
+	font-weight: bold;
+	text-align: center;
+	width: 1400px;
+	height: 60px;
+	margin: auto;
+	padding: 1em;
+}
 
 /*Украсть эту кнопку для сайта*/
 a.knopka {
@@ -169,4 +272,4 @@ a.knopka {
   outline: none; /* убирать контур в Mozilla */
 } 
 a.knopka:hover { background: #00898a; } /* при наведении курсора мышки */
-a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+a.knopka:active { background: rgb(9, 193, 226); } /* при нажатии */
