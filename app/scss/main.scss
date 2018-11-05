@@ -104,7 +104,7 @@ body{
 	position: cover;
 }
 .lupa{
-	border: 0px;
+	border: none;
 }
 .about_us{
 	margin: auto;
@@ -115,6 +115,20 @@ body{
 }
 .about_us li{
 	list-style-type: none;
+	display: inline-block;
+	margin: 45px 80px 0px 80px;
+}
+.about_us figcaption{
+	padding-top: 35px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+.about_us font{
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	margin-bottom: 20px;
 }
 .our_services{
 	width: 1400px;
@@ -150,6 +164,61 @@ body{
 }
 .latest_works li{
 	list-style-type: none;
+	display: inline-block;
+}
+.latest_works_buttons_1{
+	display: inline-block;
+	margin-bottom: 120px;
+}
+.latest_works_buttons_1 button{
+	width: 100px;
+	height: 55px;
+	background-color: #00897b;
+	border: 2px solid #00897b;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+}
+.latest_works_buttons_2{
+	display: inline-block;
+	margin-bottom: 120px;
+}
+.latest_works_buttons_2 button{
+	width: 179px;
+	height: 55px;
+	background-color: #fff;
+	border: 2px solid #00897b;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-weight: bold;
+	text-align: center;
+}
+.con{
+	height: 370px;
+	width: 370px;
+	overflow: hidden;
+	border: 0.1px solid black;
+	color: #fff;
+}
+.con:hover{
+	background: rgba(0,0,0,0.6);
+}
+.latest_works_buttons_3 button {
+	width: 220px;
+	height: 70px;
+	background-color: #00897b;
+	border: 2px solid #00897b;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
 }
 .pricing_plan{
 	margin: auto;
