@@ -52,6 +52,7 @@ b, strong {
 
 @import "media"; // Always at the end
 
+/*Общие настройки*/
 body{
     font-family: "Open Sans";
 }
@@ -89,6 +90,9 @@ body{
 	text-align: right;
 	margin-left: 450px;
 }
+.lupa{
+	border: none;
+}
 .header_menu_ul li{
 	display: inline; 
 }
@@ -98,14 +102,52 @@ body{
 	background-size: cover;
 	color: #ffffff;
 }
+.preview h1{
+	font-size: 60px;
+	letter-spacing: 4px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: 600;
+	text-align: center;
+}
+.preview span{
+	font-size: 22px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 40px;
+}
 .opacity{
 	height: 782px;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 	position: cover;
+	padding-top: 198px;
 }
-.lupa{
+.button_group1{
+	display: inline;
+}
+
+.button_group1 button{
+	margin: 0px 15px 0px 15px;
+	width: 220px;
+	height: 70px;
+	color: #fff;
+	background: none;
+	border: 3px solid #f8f8f8;
+	display: inline;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.button_group1 button:hover{
+	border: 3px solid #00897b;
+	background-color: #00897b;
+}
+.button_group2 button{
+	margin-top: 120px;
+	background: none;
 	border: none;
 }
+
 .about_us{
 	margin: auto;
 	width: 1400px;
@@ -179,7 +221,7 @@ body{
 	letter-spacing: 1px;
 	line-height: 22px;
 	color: #ffffff;
-	font-weight: bold;
+	font-weight: 600;
 	text-align: center;
 }
 .latest_works_buttons_2{
@@ -195,7 +237,7 @@ body{
 	letter-spacing: 1px;
 	line-height: 22px;
 	color: #212121;
-	font-weight: bold;
+	font-weight: 600;
 	text-align: center;
 }
 .con{
@@ -464,15 +506,3 @@ body{
 	margin: auto;
 	padding: 1em;
 }
-
-/*Украсть эту кнопку для сайта*/
-a.knopka {
-  color: #ffffff; /* цвет текста */
-  text-decoration: none; /* убирать подчёркивание у ссылок */
-  user-select: none; /* убирать выделение текста */
-  background: #00897b; /* фон кнопки */
-  padding: .7em 1.5em; /* отступ от текста */
-  outline: none; /* убирать контур в Mozilla */
-} 
-a.knopka:hover { background: #00898a; } /* при наведении курсора мышки */
-a.knopka:active { background: rgb(9, 193, 226); } /* при нажатии */
