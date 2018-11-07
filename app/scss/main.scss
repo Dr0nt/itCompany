@@ -54,7 +54,8 @@ b, strong {
 
 /*Общие настройки*/
 body{
-    font-family: "Open Sans";
+	
+	
 }
 .h1{
 	font-size: 30px;
@@ -186,7 +187,7 @@ body{
 .our_services button{
 	width: 150px;
 	height: 55px;
-	background-color: #fff;
+	background: none;
 	border: 2px solid #212121;
 }
 .service_block{
@@ -196,6 +197,14 @@ body{
 	display: inline-block;
 	margin: 15px 15px 15px 15px;
 	padding: 58px;
+}
+.service_block:hover{
+	background-color: #00897b;
+	color: #fff;
+}
+.service_block:hover button{
+	color: #fff;
+	border: 2px solid #fff;
 }
 .latest_works{
 	margin: auto;
@@ -240,16 +249,64 @@ body{
 	font-weight: 600;
 	text-align: center;
 }
-.con{
-	height: 370px;
+
+.con_1{
 	width: 370px;
-	overflow: hidden;
-	border: 0.1px solid black;
+	height: 370px;
+	background: url(../img/layer-1.png);
+	margin: 15px 15px 15px 15px;
 	color: #fff;
+	background-repeat: no-repeat;
 }
-.con:hover{
+.con_2{
+	width: 370px;
+	height: 370px;
+	background: url(../img/layer-2.png);
+	margin: 15px 15px 15px 15px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}
+.con_3{
+	width: 370px;
+	height: 370px;
+	background: url(../img/layer-3.png);
+	margin: 15px 15px 15px 15px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}
+.con_4{
+	width: 370px;
+	height: 370px;
+	background: url(../img/layer-4.png);
+	margin: 15px 15px 15px 15px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}
+.con_5{
+	width: 370px;
+	height: 370px;
+	background: url(../img/layer-5.png);
+	margin: 15px 15px 15px 15px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}
+.con_6{
+	width: 370px;
+	height: 370px;
+	background: url(../img/layer-6.png);
+	margin: 15px 15px 15px 15px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}
+.con_opacity:hover{
 	background: rgba(0,0,0,0.6);
 }
+
 .latest_works_buttons_3 button {
 	width: 220px;
 	height: 70px;
