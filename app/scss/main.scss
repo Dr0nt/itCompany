@@ -53,10 +53,7 @@ b, strong {
 @import "media"; // Always at the end
 
 /*Общие настройки*/
-body{
-	
-	
-}
+
 .h1{
 	font-size: 30px;
 	letter-spacing: 2px;
@@ -216,6 +213,7 @@ body{
 .latest_works li{
 	list-style-type: none;
 	display: inline-block;
+	margin: 15px 15px 15px 15px;
 }
 .latest_works_buttons_1{
 	display: inline-block;
@@ -224,14 +222,18 @@ body{
 .latest_works_buttons_1 button{
 	width: 100px;
 	height: 55px;
-	background-color: #00897b;
+	background-color: #fff;
 	border: 2px solid #00897b;
 	font-size: 20px;
 	letter-spacing: 1px;
 	line-height: 22px;
-	color: #ffffff;
+	color: #212121;
 	font-weight: 600;
 	text-align: center;
+}
+.latest_works_buttons_1:hover button{
+	background-color: #00897b;
+	color: #fff;
 }
 .latest_works_buttons_2{
 	display: inline-block;
@@ -249,76 +251,74 @@ body{
 	font-weight: 600;
 	text-align: center;
 }
-
+.latest_works_buttons_2:hover button{
+	background-color: #00897b;
+	color: #fff;
+}
+.latest_works_buttons_3{
+	margin-top: 132px;
+}
+.latest_works_buttons_3 button {
+	width: 220px;
+	height: 70px;
+	background-color: #fff;
+	border: 2px solid #00897b;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-weight: 600;
+	text-align: center;
+}
+.latest_works_buttons_3:hover button{
+	background-color: #00897b;
+	color: #fff;
+}
+/*Начало картинок*/
 .con_1{
 	width: 370px;
 	height: 370px;
-	background: url(../img/layer-1.png);
-	margin: 15px 15px 15px 15px;
-	color: #fff;
-	background-repeat: no-repeat;
+	background: url(../img/Layer-1.png) no-repeat;
 }
 .con_2{
 	width: 370px;
 	height: 370px;
-	background: url(../img/layer-2.png);
-	margin: 15px 15px 15px 15px;
-	color: #fff;
-	background-repeat: no-repeat;
+	background: url(../img/Layer-2.png) no-repeat;
 	background-position-x: 50%;
+}
+.con_opacity{
+	margin: auto;
+	width: 370px;
+	height: 370px;
+}
+.con_opacity:hover{
+	background: rgba(0,0,0,0.7);
 }
 .con_3{
 	width: 370px;
 	height: 370px;
-	background: url(../img/layer-3.png);
-	margin: 15px 15px 15px 15px;
-	color: #fff;
-	background-repeat: no-repeat;
+	background: url(../img/Layer-3.png) no-repeat;
 	background-position-x: 50%;
 }
 .con_4{
 	width: 370px;
 	height: 370px;
-	background: url(../img/layer-4.png);
-	margin: 15px 15px 15px 15px;
-	color: #fff;
-	background-repeat: no-repeat;
+	background: url(../img/Layer-4.png) no-repeat;
 	background-position-x: 50%;
 }
 .con_5{
 	width: 370px;
 	height: 370px;
-	background: url(../img/layer-5.png);
-	margin: 15px 15px 15px 15px;
-	color: #fff;
-	background-repeat: no-repeat;
+	background: url(../img/Layer-5.png) no-repeat;
 	background-position-x: 50%;
 }
 .con_6{
 	width: 370px;
 	height: 370px;
-	background: url(../img/layer-6.png);
-	margin: 15px 15px 15px 15px;
-	color: #fff;
-	background-repeat: no-repeat;
+	background: url(../img/Layer-6.png) no-repeat;
 	background-position-x: 50%;
 }
-.con_opacity:hover{
-	background: rgba(0,0,0,0.6);
-}
 
-.latest_works_buttons_3 button {
-	width: 220px;
-	height: 70px;
-	background-color: #00897b;
-	border: 2px solid #00897b;
-	font-size: 20px;
-	letter-spacing: 1px;
-	line-height: 22px;
-	color: #ffffff;
-	font-weight: bold;
-	text-align: center;
-}
 .pricing_plan{
 	margin: auto;
 	width: 1400px;
