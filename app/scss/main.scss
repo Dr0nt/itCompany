@@ -497,9 +497,6 @@ b, strong {
 	border: none;
 	color: #ffffff;
 }
-.block_right :hover{
-	
-}
 .our_team_member{
 	margin: auto;
 	width: 1400px;
@@ -510,12 +507,116 @@ b, strong {
 .our_team_member li{
 	list-style-type: none;
 }
+
+/*Начало blog*/
 .blog{
 	margin: auto;
 	width: 1400px;
 	height: 1869px;
 	background-color: #e3fdf9;
 }
+.blog_button{
+	margin: auto;
+	margin-top: 120px;
+	width: 220px;
+}
+.blog_button button{
+	width: 220px;
+	height: 70px;
+	border: 2px solid #00897b;
+	background: none;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	font-weight: 600;
+	text-align: center;
+}
+.blog_button button:hover{
+	Color: #fff;
+	width: 220px;
+	height: 70px;
+	border: 2px solid #00897b;
+	background: #00897b;
+}
+.blog1{
+	margin: auto;
+	width: 1150px;
+}
+.blog-img1{
+	display: inline-block;
+}
+.blog1-text{
+	display: inline-block;
+	margin-left: 30px;
+}
+.blog1-text a{
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+}
+.blog1-text a:hover{
+	color: #00897b;
+}
+.blog1-text p{
+	padding-top: 20px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+}
+.blog1-text span{
+	margin-left: 15px;
+	margin-right: 40px;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	font-weight: 600;
+}
+	
+.blog2{
+	margin: auto;
+	width: 1150px;
+}
+.blog-img2{
+	display: inline-block;
+	margin-left: 129px;
+}
+.blog2-text{
+	display: inline-block;
+}
+.blog2-text a{
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+}
+.blog2-text a:hover{
+	color: #00897b;
+}
+.blog2-text p{
+	padding-top: 20px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+}
+.blog2-text span{
+	margin-left: 15px;
+	margin-right: 40px;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+/*Начало contact*/
 .contact_us{
 	background: url(../img/layer0.jpg) no-repeat;
 	background-size: cover;
